@@ -26,6 +26,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagment>
+    <repository>
+      <id>deployment</id>
+      <name>Internal Releases</name>
+      <url>http://3.84.238.82:8081/repository/sample_release/</url>
+      </repository>
+    
+    <snapshotrepository>
+      <id>deployment</id>
+      <name>Internal Snapshot Releases</name>
+      <url>http://3.84.238.82:8081/repository/sample_snap/</url>
+      </snapshotrepository>
+    
+  </distributionManagment>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
